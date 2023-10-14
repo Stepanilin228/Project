@@ -11,7 +11,6 @@ class Main(tk.Frame):
         self.db = db
         self.view_records()
 
-
     # Инициализируем виджеты для главного окна
     def init_main(self):
         toolbar = tk.Frame(bg="#d7d7d7", bd=2)
